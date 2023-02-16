@@ -90,3 +90,59 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.landingMenu {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(224, 201, 166);
+  border-style: double;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.menuTitle {
+  padding-top: 30px;
+}
+
+.menuWrapper {
+  display: flex;
+  padding-top: 40px;
+}
+
+.menuItem {
+  padding: 10px;
+}
+
+.landingContact {
+  height: 100%;
+  width: 100%;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 6%,
+    rgba(0, 0, 0, 1) 72%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsWrapper {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.166);
+  border-radius: 1.5rem;
+}
+
+.contactsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactsInfo {
+  padding-top: 25px;
+}

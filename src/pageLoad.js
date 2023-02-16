@@ -45,7 +45,6 @@ export const pageInitialLoad = () => {
   };
 
   Object.keys(buttons).forEach((btn) => {
-    console.log(btn);
     createElement({
       how: "append",
       element: "button",
@@ -60,13 +59,6 @@ export const pageInitialLoad = () => {
     place: content,
     element: "div",
     whatClass: "landingMedia",
-  });
-
-  const landingImage = createElement({
-    how: "append",
-    place: landingMedia,
-    element: "div",
-    whatClass: "landingImage",
   });
 
   const aboutWrapper = createElement({
@@ -138,4 +130,5 @@ export const pageInitialLoad = () => {
     whatClass: "footer",
     text: "2023",
   });
+  console.log("loaded");
 };
